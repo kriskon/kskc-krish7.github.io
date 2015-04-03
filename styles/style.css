@@ -1,0 +1,70 @@
+/*
+p,h1 {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+*/
+html {
+  font-size: 22px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  background-color: #00539F;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #FF3520;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+}
+
+p,li {
+  font-size: 20px;
+  line-height: 3;
+  letter-spacing: 1px;
+}
+
+#p_id {
+  color : blue;
+  width : 600px;
+  border : 1px solid blue;
+}
+
+#a_id {
+  color : green;
+  width : 500px;
+}
+
+.class_name {
+  color : orange;
+  width : 500px;
+}
+
+#a_id:hover {
+  color : black;
+}
+
+a:hover {
+  color : yellow;
+}
